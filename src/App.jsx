@@ -247,16 +247,16 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount < 4 && !popupShown) {
       Swal.fire({
-          title: "أنا عارف إن زعلك وحش بس قلبي ميهونش عليه زعلك.. صافي يا لبن؟ ❤️",
+          title: "I love you sooo Much!!!❤️, You’ve stolen my heart completely!!! 🥰💖 ❤️",
            popup: `
             animate__animated
             animate__fadeInUp
             animate__faster
-          `
-        },
-        width: 700,
-        padding: "2em",
-        color: "#716add",
+              confirmButtonColor: "#3085d6",
+         },
+       width: 700,
+      padding: "2em",
+      color: "#716add",
         background: `#fff url(${swalbg})`,
         backdrop: `
           rgba(0,0,123,0.2)
