@@ -262,14 +262,12 @@ export default function Page() {
       rgba(0,0,123,0.4)
       url("/images/nyan-cat.gif")
       left top
-      no-repeat`
+      no-repeat
+    `
   });
-      setPopupShown(true);
-      setYesPressed(false);
-    }
-  }, [yesPressed, noCount, popupShown]);
-  
-  useEffect(() => {
+  setPopupShown(true);
+  setYesPressed(false);
+}
     if (yesPressed && noCount > 3 && !yespopupShown) {
       Swal.fire({
         title: "I love you so much!! ❤️ You are my everything, my joy, my forever. Every moment with you is a memory I’ll cherish forever, and my heart beats only for you.</br> Will you be the love of my life forever?",
