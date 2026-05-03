@@ -257,13 +257,13 @@ export default function Page() {
       width: 700,
       padding: "2em",
       color: "#716add",
-       background: '#fff url(${swalbg})',
-        backdrop: `
-          rgba(0,0,123,0.2)
-          url(${loveu})
-          right
-          no-repeat
-        `,
+    background: '#fff url(${swalbg})',
+    backdrop: `
+     rgba(0,0,123,0.4)
+      url("/images/nyan-cat.gif")
+     left top
+     no-repeat
+    `
       });
       setPopupShown(true);
       setYesPressed(false);
