@@ -256,10 +256,10 @@ export default function Page() {
       confirmButtonColor: "#3085d6",
       width: 700,
       padding: "2em",
-      color: "#716add",
+      259    color: "#716add",
     background: '#fff url(${swalbg})',
     backdrop: `
-     rgba(0,0,123,0.4)
+    rgba(0,0,123,0.4)
       url("/images/nyan-cat.gif")
      left top
      no-repeat
