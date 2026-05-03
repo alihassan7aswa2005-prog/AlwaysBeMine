@@ -262,9 +262,8 @@ export default function Page() {
       rgba(0,0,123,0.4)
       url("/images/nyan-cat.gif")
       left top
-      no-repeat
-    `
-      });
+      no-repeat`
+  });
       setPopupShown(true);
       setYesPressed(false);
     }
