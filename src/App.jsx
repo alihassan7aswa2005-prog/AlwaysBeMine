@@ -257,8 +257,7 @@ export default function Page() {
       width: 700,
       padding: "2em",
      color: "#716add",
-    background: `#fff url(${swalbg})`,
-    backdrop: `
+background: `#fff url(${swalbg})`,    backdrop: `
       rgba(0,0,123,0.4)
       url("/images/nyan-cat.gif")
       left top
