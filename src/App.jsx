@@ -248,16 +248,16 @@ export default function Page() {
     if (yesPressed && noCount < 4 && !popupShown) {
       Swal.fire({
           title: "I love you sooo Much!!!❤️, You’ve stolen my heart completely!!! 🥰💖 ❤️",
-           popup: `
+          popup: `
             animate__animated
-            animate__fadeInUp
-            animate__faster
-              confirmButtonColor: "#3085d6",
-         },
-       width: 700,
+            `,
+          showConfirmButton: true,
+      confirmButtonText: "صافي يا لبن 😊",
+      confirmButtonColor: "#3085d6",
+      width: 700,
       padding: "2em",
       color: "#716add",
-        background: `#fff url(${swalbg})`,
+       background: '#fff url(${swalbg})',
         backdrop: `
           rgba(0,0,123,0.2)
           url(${loveu})
